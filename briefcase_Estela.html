@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html data-theme="cupcake", lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.20.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2/dist/tailwind.min.css" rel="stylesheet" type="text/css" />
+    <title>Estela Chipantasi</title>
+</head>
+<body>
+   <header>
+    <div class="md:container md:mx-auto">
+        <div style="background-image:url('./assets/fondo.svg');">
+          <!-- BACK BUTTON START -->
+          <div class="flex-initial">
+            <a class="btn btn-ghost hover:text-white normal-case text-xl bg-base-100 mt-10" href="index.html">ESTELA CHIPANTASI</a>
+          </div>
+          <!-- BACK BUTTON END -->
+          <!-- NAVBAR START -->
+        </div>
+        <nav class="flex-initial bg-base-105 menu menu-horizontal p-2">
+          <a href="#habilities" class="font-medium px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-sky-900">Habiliades</a>
+          <a href="#services" class="font-medium px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-sky-900">Servicios</a>
+          <a href="#education" class="font-medium px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-sky-900">Educación</a>
+        </nav>
+        <!-- NAVBAR END -->
+      </div>
+   </header> 
+   <main>
+
+    <!-- SECTION HABILITIES START -->
+    <section>
+      <h2 class = "ml-12 text-left text-fuchsia-400 font-medium mt-10 text-xl normal-case" id="habilities"> HABILIDADES</h2>
+      <div class="overflow-x-auto grid grid-cols-2 ml-10 ">
+        <table class="table mt-10 mx-12">
+          <!-- head -->
+          <thead>
+            <tr>
+              <th></th>
+              <th></th>
+              <th>Lenguajes y herramientas</th>
+              <th>Nivel</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- row 1 -->
+            <tr>
+              <th>1</th>
+              <td><img src="./assets/python-art.webp" alt="Shoes" class="rounded-xl" width="40" height="40" /></td>
+              <td>Python</td>
+              <td>Intermedio</td>
+            </tr>
+            <!-- row 2 -->
+            <tr class="hover">
+              <th>2</th>
+              <td><img src="./assets/java.png" alt="Shoes" class="rounded-xl" width="40" height="40" /></td>
+              <td>Java</td>
+              <td>Medio</td>
+            </tr>
+            <!-- row 3 -->
+            <tr>
+              <th>3</th>
+              <td><img src="./assets/html.svg" alt="Shoes" class="rounded-xl" width="40" height="40" /></td>
+              <td>Html</td>
+              <td>Básico</td>
+            </tr>
+            <!-- row 4 -->
+            <tr>
+              <th>4</th>
+              <td><img src="./assets/css.svg" alt="Shoes" class="rounded-xl" width="40" height="40" /></td>
+              <td>CSS</td>
+              <td>Básico</td>
+            </tr>
+          </tbody>
+        </table>
+        <figure class="ml-20 mt-10"><img src="./assets/developer.png" width="300" height="300" /></figure>
+      </div>
+    </section>
+    <!-- SECTION HABILITIES END -->
+    <!-- SECTION SERVICIES START -->
+    <h2 class = "ml-12 mt-10 text-left text-fuchsia-400 font-medium text-xl normal-case"  id="services"> SERVICIOS</h2>
+    <section class="grid grid-cols-3 divide-x-8  mt-8 m-20 ">
+      <div class="card  w-100 shadow-2xl mt-5">
+        <div class="card-body">
+          <p class= "text-center text-lg font-medium" >Diseño de base de datos en una herramienta case.</p>
+          <figure class= "mt-5"><img src="./assets/database-migration.svg" width="60" height="35" /></figure>
+          <p class= "text-center text-lg font-medium" >Construcción prototipos de páginas web en la herramienta Figma</p>
+          <figure class= "mt-5"><img src="./assets/web.png" width="100" height="30"/></figure>
+        </div>
+      </div>
+      <div class="card  w-100 shadow-xl mt-5">
+        <div class="card-body-2">
+          <p class= "text-center text-lg font-medium mt-7">Mantenimiento de PC</p>
+          <figure class= "mt-8"><img src="./assets/pc.png" width="80" height="40" /></figure>
+          <p class= "text-center text-lg font-medium">Clases de Word, Excel y PowerPoint de nivel básico</p>
+          <figure class= "mt-8"><img src="./assets/office.png" width="90" height="50" /></figure>
+        </div>
+      </div>
+      <div class="card  w-100 shadow-xl mt-5">
+        <div class="card-body-3">
+          <p class= "text-center text-lg font-medium mt-7">Nivelación</p>
+          <p class= "text-center text-lg font-medium">Para primaria: </p>
+          <ul>
+            <li class= "text-center text-lg ">Matemática</li>
+            <li class= "text-center text-lg ">Lenguaje</li>
+          </ul>
+          <figure class= "mt-5"><img src="./assets/stationery.png" width="60" height="30" /></figure>
+          <p class= "text-center text-lg font-medium">Para BGU: </p>
+          <ul>
+            <li class= "text-center text-lg">Biología</li>
+            <li class= "text-center text-lg">Química</li>
+          </ul>
+          <figure class= "mt-5"><img src="./assets/cientifico.png" width="60" height="30" /></figure>
+        </div>
+      </div>
+    </section>
+    <!-- SECTION SERVICIES END -->
+    <!-- SECTION EDUATION START -->
+    <h2 class = "ml-12 mt-10 text-left text-fuchsia-400 font-medium text-xl normal-case">EDUCACIÓN</h2>
+    <section class="container-lg grid grid-cols-3 mt-10 m-20 text-center" id="education">
+      <div class="container">
+        <figure class= "mt-5 mb-5"><img src="./assets/school.svg" width="60" height="30" /></figure>
+        <p>Quito-Ecuador, Julio 2019</p>
+        <p>UNIDAD EDUCATIVA TÉCNICA EXPERIMENTAL "MITAD DEL MUNNDO"</p>
+        <p>BACHILLERATO EN SERVICIOS CONTABLES</p>
+      </div>
+      <div class="container text-center">
+        <figure class= "mt-5 mb-5"><img src="./assets/ingles.svg" width="60" height="30" /></figure>
+        <p>Quito-Ecuador, Junio 2022</p>
+        <p>ESCUELA POLITÉCNICA NACIONAL</p>
+        <p>En curso</p>
+      </div>
+      <div class="container text-center">
+        <figure class= "mt-5 mb-5"><img src="./assets/U.svg" width="60" height="30" /></figure>
+        <p>Quito-Ecuador, Mayo 2022</p>
+        <p>CENTRO DE EDUCACIÓN CONTINUA - EPN</p>
+        <p>SUFICIENCIA EN INGLÉS</p>
+      </div>
+      
+    </section>
+    <!-- SECTION EDUATION END -->
+
+   </main>
+   <footer class="footer items-center p-4 bg-neutral text-neutral-content mt-10">
+    <div class="items-center grid-flow-col">
+      <svg width="36" height="36" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" class="fill-current"><path d="M22.672 15.226l-2.432.811.841 2.515c.33 1.019-.209 2.127-1.23 2.456-1.15.325-2.148-.321-2.463-1.226l-.84-2.518-5.013 1.677.84 2.517c.391 1.203-.434 2.542-1.831 2.542-.88 0-1.601-.564-1.86-1.314l-.842-2.516-2.431.809c-1.135.328-2.145-.317-2.463-1.229-.329-1.018.211-2.127 1.231-2.456l2.432-.809-1.621-4.823-2.432.808c-1.355.384-2.558-.59-2.558-1.839 0-.817.509-1.582 1.327-1.846l2.433-.809-.842-2.515c-.33-1.02.211-2.129 1.232-2.458 1.02-.329 2.13.209 2.461 1.229l.842 2.515 5.011-1.677-.839-2.517c-.403-1.238.484-2.553 1.843-2.553.819 0 1.585.509 1.85 1.326l.841 2.517 2.431-.81c1.02-.33 2.131.211 2.461 1.229.332 1.018-.21 2.126-1.23 2.456l-2.433.809 1.622 4.823 2.433-.809c1.242-.401 2.557.484 2.557 1.838 0 .819-.51 1.583-1.328 1.847m-8.992-6.428l-5.01 1.675 1.619 4.828 5.011-1.674-1.62-4.829z"></path></svg> 
+      <p>Copyright © 2022 - All right reserved</p>
+    </div> 
+    <div class="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
+      <a href="https://github.com/EstelaIb" target="_blank"><img src="./assets/red_contacto.svg" width="40" height="40"/></a>
+      <a href="mailto:geovanha44@gmail.com" target="_blank"><img src="./assets/google-gmail.svg" width="40" height="40"/></a>
+      <a href="https://wa.me/153993593568" target="_blank"><img src="./assets/whatsapp.svg" width="40" height="40"/></a>
+    </div>
+  </footer>
+</body>
+</html>
